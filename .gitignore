@@ -1,3 +1,43 @@
-**/.env
-**/.venv
-**/.env.prod
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les environnements virtuels
+venv/
+.venv/
+.env/
+.envrc
+
+# Fichiers de configuration sensibles
+*.env
+*.secret
+*.key
+
+# Caches et logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Fichiers Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-store/
+
+# Dossiers d'éditeur
+.vscode/
+.idea/
+
+# Fichiers de build
+dist/
+build/
+*.egg-info/
+
+# Base de données temporaire ou locale
+*.sqlite3
+
+# Autres
+*.bak
+*.swp
+*.tmp
+
